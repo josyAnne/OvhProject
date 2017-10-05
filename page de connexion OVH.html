@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Page de connexion OVH</title>
+
+	<link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+
+
+		form
+		{
+			border: 1px solid #909497;
+			box-shadow: 0 0 5px #909497;
+			border-radius: 3px;
+			width:  280px;
+			height: 420px;
+			margin: 50px auto;
+			font-family: 'Arial';
+
+		}
+
+		.imageContainer
+		{
+			text-align: center;
+			margin: 30px auto;
+			padding: 10px 10px;
+		}
+
+		img.Avatar
+		{
+			width: 40%;
+		}
+
+		.title
+		{
+			padding: 10px 10px;
+			padding-bottom: 20px;
+			padding-top: 0px;
+			font-size: 20px;
+		}
+
+		input[type=text],[type=password]
+		{
+			margin-top : 8px;
+			margin-bottom: 5px;
+			display: inline-block;
+			border: 1px solid #4D5656;
+			border-radius: 2px;
+			padding-left: 15px;
+		}
+
+		.form-input1::before
+		{
+			content: "\f007";
+			position :absolute;
+			font-family: "FontAwesome";
+			font-size: 17px;
+			color: #09557A;
+			padding-top: 9px;
+			padding-left: 3px;
+		}
+
+		.form-input2::before
+		{
+			content: "\f023";
+			position :absolute;
+			font-family: "FontAwesome";
+			font-size: 17px;
+			color: #09557A;
+			padding-top: 9px;
+			padding-left: 3px;
+		}
+
+		input[type=text]
+		{
+			width: 95%;
+		}
+
+		input[type=password]
+		{
+			width: 91%;
+			padding-right: 10px;
+		}
+
+		.container
+		{
+			padding: 10px 10px;
+			font-size: 11px;
+		}
+
+		.container button
+		{
+			width: 10%;
+			background: #FFF;
+			border: none;
+			margin-left: -20px;
+			float: right;
+			position: relative;
+			margin-top: -23px;
+		}
+
+		.submit
+		{
+			padding-left: 60%;
+			padding-top:  10px;
+		}
+
+		input[type="submit"]
+		{
+			height: 27px;
+			width: 100px;
+			background: #3473db;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			box-shadow: 0 0 4px #09557A;
+		}
+
+		input[type="checkbox"]
+		{
+			margin-left: 40px;
+		}
+
+	</style>
+</head>
+<body>
+
+	<form>
+		<div class="imageContainer">
+			<img src="logo-ovh-150DPI.png" class="Avatar">
+		</div>
+
+		<div class="title">Se connecter</div>
+		<hr />
+
+		<div class="container">
+
+			<label><strong>Nom d'utilisateur</strong></label>
+			<div class="form-input1">
+				<input type="text" name="" required>
+			</div>
+
+			<label><strong>Mot de passe</strong></label>
+			<div class="form-input2">
+				<input type="password" name="" required>
+				<button><i class="fa fa-eye" aria-hidden="true"></i></button>
+			</div>
+
+			<div>Remember me <input type="checkbox"></div>
+		</div>
+
+		<hr />
+		<div class = "submit">
+			<input type="submit" name="" value = "Se connecter">
+		</div>
+	</form>
+</body>
+</html>
